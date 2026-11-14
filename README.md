@@ -16,6 +16,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
+
+```powershell
+python.exe -m pip install --upgrade pip
+```
+
 ```powershell
 pip install -r requirements.txt
 ```
