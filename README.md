@@ -7,6 +7,12 @@
 ```powershell
 python -m venv .venv
 ```
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
